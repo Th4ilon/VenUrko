@@ -1,0 +1,19 @@
+{
+  "name": "venurko",
+  "version": "1.0.0",
+  "description": "drinking game based in a tru games of dices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Th4ilon/VenUrko.git"
+  },
+  "author": "Jesus Alberto arevalo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Th4ilon/VenUrko/issues"
+  },
+  "homepage": "https://github.com/Th4ilon/VenUrko#readme"
+}
