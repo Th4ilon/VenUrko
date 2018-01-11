@@ -1,0 +1,22 @@
+
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+<script>
+    var socket = io();
+   
+    var random = Math.random();
+   
+    var happy = function(){
+        //emit is the function that sends data to the server.
+        //it recive messege name 'happy' and object 'reason'(withc is the data it self)
+        socket.emit('happy',{
+            reason:'its my birthday' + random
+        });
+    }
+   //same as before but recivinf data from the server
+    socket.on('serverMsg',function(data){
+        console.log(data.msg); 
+    });
+ 
+   
+</script>
+ <button onclick="happy()">Happy</button>

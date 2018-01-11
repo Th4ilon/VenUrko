@@ -2,7 +2,7 @@
   "name": "venurko",
   "version": "1.0.0",
   "description": "drinking game based in a tru games of dices",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Th4ilon/VenUrko/issues"
   },
-  "homepage": "https://github.com/Th4ilon/VenUrko#readme"
+  "homepage": "https://github.com/Th4ilon/VenUrko#readme",
+  "dependencies": {
+    "socket.io": "^2.0.4",
+    "express": "^4.16.2"
+  }
 }
